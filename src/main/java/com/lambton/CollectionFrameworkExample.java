@@ -1,6 +1,8 @@
 package com.lambton;
 
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
 
 public class CollectionFrameworkExample {
     public static void main(String[] args)
@@ -16,5 +18,15 @@ public class CollectionFrameworkExample {
         {
             System.out.println(mStringArrayList.get(i));
         }
+
+        Set<String> myset=new HashSet<>();
+        myset.add("India");
+        myset.add("india");
+        myset.add("India");
+        myset.add("China");
+        myset.add("Russia");
+        System.out.println(myset);
+
+        
     }
 }
